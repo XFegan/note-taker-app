@@ -2,7 +2,7 @@ const express = require("express");
 
 //setting up server
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 //express to handle the data
 app.use(express.urlencoded({ extended: true }));
