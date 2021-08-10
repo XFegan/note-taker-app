@@ -1,7 +1,7 @@
 const fs = require("fs");
 const out_put = "./db/db.json";
 
-const database = require("../db/db.json");
+const database = require("../Develop/db/db.json");
 let id = database.length + 1;
 
 module.exports = function (app) {
